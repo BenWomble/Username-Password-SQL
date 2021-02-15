@@ -9,6 +9,11 @@ def menu_exist_user():
     return exist_user
 
 
+def menu_find_user():
+    print()
+    return "Finding User"
+
+
 def default_user():
     player_name = "Player"
     return player_name

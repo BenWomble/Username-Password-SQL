@@ -5,5 +5,5 @@ def menu_top():
     print('2. Use an existing user')
     print('Q. Exit this program')
     print('-' * 30)
-    menu_top_answer = int(input(': '))
+    menu_top_answer = input(': ')
     return menu_top_answer
